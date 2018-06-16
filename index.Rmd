@@ -5,12 +5,13 @@ knitr::opts_chunk$set(
   comment = "##",
   fig.path = "man/images/"
 )
+unlink("index_cache", recursive = TRUE)
+file.copy("pkgdown/extra.css", "docs/extra.css", overwrite = TRUE)
 ```
 
 # quanteda: Quantitative Analysis of Textual Data
 
 ```{r eval = TRUE, message = FALSE, echo = FALSE, results = 'asis'}
-unlink('index_cache', recursive = TRUE)
 html <- readLines("pkgdown/icon.html")
 html <- stringi::stri_replace_first_regex(html, "^\\s+", "")
 cat(html, sep = "\n")

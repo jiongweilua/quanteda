@@ -92,7 +92,7 @@ pre {
 
 div.icon-row {
   width: 847px;
-  height: 150px;
+  height: 190px;
   margin: 40px 0
 }
 div.icon-row:after {
@@ -102,7 +102,7 @@ div.icon-row:after {
 }
 div.icon-box {
   width: 33%;
-  height: 150px;
+  height: 190px;
   float: left;
   text-align: center;
   padding: 0 10px;
