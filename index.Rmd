@@ -7,51 +7,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-<style type="text/css">
-
-div.icon-row {
-  width: 910px;
-  height: 150px;
-  margin: 40px 0
-}
-div.icon-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-div.icon-box {
-  width: 220px;
-  height: 150px;
-  float: left;
-  text-align: center;
-}
-a.icon {
-  display: block;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  border: solid 1px #467fbf;
-  text-align: center;
-  padding: 20px;
-  margin: 0 auto 10px auto;
-  transition: all 0.2s ease-out;
-}
-a.icon:hover {
-  transform: scale(1.1, 1.1);
-}
-h3.icon-title {
-  font-weight: bold;
-  font-size: 15px;
-}
-i.fa {
-  font-size: 35px;
-  color: #467fbf;
-}
-div.last  {
-  clear: both;
-}
-</style>
-
 # quanteda: Quantitative Analysis of Textual Data
 
 ```{r eval = TRUE, message = FALSE, echo = FALSE, results = 'asis'}
